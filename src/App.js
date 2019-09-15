@@ -1,26 +1,25 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { NONAME } from 'dns';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<h1 style={{textAlign: "center"}}>
+				Lotus Chat
+			</h1>
+			<div className="textBox">
+				<input
+					className="Text"
+					type="text"
+					placeholder=" plz type here UwU"
+					style={{paddingTop: "0.5%", paddingBottom: "0.5%", border: "none"}}
+				/>
+				<button className="enterButton" style={{backgroundColor: "#af19bf", border: "none", color: "white", paddingTop: "0.5%", paddingBottom: "0.5%"}}> Enter UwU </button>
+			</div>
+		</div>
+	);
 }
 
 export default App;
