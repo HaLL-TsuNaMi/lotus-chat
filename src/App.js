@@ -6,17 +6,16 @@ import { NONAME } from 'dns';
 function App() {
 	return (
 		<div className="App">
-			<h1 style={{textAlign: "center"}}>
-				Lotus Chat
+			<h1 style={{textAlign: "center", backgroundColor: "#a74cb0", marginTop: "0", padding: "0.5%", color: "white"}}>
+				Lotus
 			</h1>
 			<div className="textBox">
 				<input
-					className="Text"
+					className="inputBox"
 					type="text"
-					placeholder=" plz type here UwU"
-					style={{paddingTop: "0.5%", paddingBottom: "0.5%", border: "none"}}
+					placeholder="plz type here UwU"
 				/>
-				<button className="enterButton" style={{backgroundColor: "#af19bf", border: "none", color: "white", paddingTop: "0.5%", paddingBottom: "0.5%"}}> Enter UwU </button>
+				<button className="enterButton">UwU</button>
 			</div>
 		</div>
 	);

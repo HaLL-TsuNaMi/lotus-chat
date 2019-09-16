@@ -1,18 +1,58 @@
+* {
+	color: #a74cb0;
+}
+
 body {
-	background-color: #241330;
+	background-color: #312033;
 }
 
 .App {
 	color: white;
 }
 
-.enterButton {
-	position: relative;
+::placeholder {
+	color: #a74cb0
 }
 
 .textBox {
+	text-align: center;
+	border: 1px solid #a74cb0;
+	border-radius: 100px;
+	background-color: #312033;
+	position: absolute;
+	bottom: 0;
+	width: 520px;
+	margin: 0%;
 	position: absolute;
 	left: 50%;
-	margin-left: -50px;
-	bottom: 0;
+	margin-left: -250px;
 }
+
+.inputBox {
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	border: none;
+	background: transparent;
+	margin-left: 20px;
+}
+
+input:focus {
+	outline-color: transparent;
+}
+
+.enterButton {
+	background-color: transparent;
+	border: none;
+	color: #a74cb0;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	border-radius: 100px;
+	height: 29px;
+	width: 50px;
+	margin-left: 281px;
+}
+
+button:focus {
+	outline-color: transparent;
+}
+
